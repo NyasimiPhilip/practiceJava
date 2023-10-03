@@ -105,11 +105,6 @@
   <h2>Unit Testing:</h2>
   Explore testing frameworks like JUnit for writing and running unit tests.
 </p>
-<p>
-  <h2>Version Control (Git):</h2>
-  Learn the basics of Git for version control.
-</p>
-
 <h1>Level 6: Projects and Real-World Applications</h1>
 <p>
   <h2>Personal Projects:</h2>
@@ -128,8 +123,4 @@
   <h2>Coding Challenges:</h2>
   Solve coding challenges on platforms like LeetCode, HackerRank, and Codeforces to improve problem-solving skills.
 </p>
-<p>
-  <h2>Continual Learning:</h2>
-  Stay updated with the latest Java features and best practices.<br>
-  Read books, blogs, and take online courses to further enhance your knowledge.
-</p>
+
