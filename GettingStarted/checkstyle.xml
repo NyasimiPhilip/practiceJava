@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+   "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+   "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker">
+   <!-- Indentation Rule -->
+<module name="Indentation">
+       <property name="basicOffset" value="4" />
+       <property name="braceAdjustment" value="0" />
+</module>
+
+   <!-- Whitespace Around Operators Rule -->
+<module name="WhitespaceAround">
+       <property name="tokens" value="EQUAL,NOT_EQUAL" />
+</module>
+
+   <!-- Javadoc Rules -->
+   <module name="JavadocType" />
+   <module name="JavadocMethod" />
+
+   <!-- Local Variable Naming Rule -->
+   <module name="LocalVariableName">
+       <property name="format" value="^[a-z][a-zA-Z0-9]*$" />
+   </module>
+
+   <!-- Member Name (Field) Naming Rule -->
+   <module name="MemberName">
+       <property name="format" value="^[a-z][a-zA-Z0-9]*$" />
+   </module>
+
+   <!-- Avoid Star Import Rule -->
+   <module name="AvoidStarImport" />
+
+   <!-- Cyclomatic Complexity Rule -->
+   <module name="CyclomaticComplexity">
+       <property name="max" value="10" /> <!-- Adjust as needed -->
+   </module>
+
+   <!-- File Length Rule -->
+   <module name="FileLength">
+       <property name="max" value="1000" /> <!-- Adjust as needed -->
+   </module>
+
+   <!-- No Trailing Whitespace Rule -->
+   <module name="NoWhitespaceAfter" />
+
+   <!-- No Trailing Spaces Rule -->
+   <module name="NoTrailingSpaces" />
+
+   <!-- Empty Block Rule -->
+   <module name="EmptyBlock" />
+</module>
