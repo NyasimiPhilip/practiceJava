@@ -6,15 +6,12 @@ public class nestedloops {
         int rows;
         int columns;
         String symbol = "";
-
         System.out.println("Enter No of rows");
         rows = scanner.nextInt();
         System.out.println("Enter No of columns");
         columns = scanner.nextInt();
-
         // Consume the newline character left in the input stream
         scanner.nextLine();
-
         System.out.println("Enter symbol");
         symbol = scanner.nextLine();
 
@@ -24,7 +21,6 @@ public class nestedloops {
                 System.out.print(symbol);
             }
         }
-
         scanner.close();
     }
 }
