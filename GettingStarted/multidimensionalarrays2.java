@@ -1,4 +1,4 @@
-public class multidimensionalarrays {
+public class multidimensionalarrays2 {
     public static void main(String[] args) {
         String[][] cars = new String[3][3];
 
