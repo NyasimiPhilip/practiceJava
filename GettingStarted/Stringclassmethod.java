@@ -12,7 +12,4 @@ public class Stringclassmethod {
         System.out.println(result2);
 
     }
-
-
-
 }
