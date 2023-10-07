@@ -10,11 +10,8 @@ public class whileloops {
         {
             System.out.print("Enter your name: ");
             name = scanner.nextLine();
-
         }
         System.out.println("Hello "+ name);
-
         scanner.close();        
-    }
-        
+    }        
 }
