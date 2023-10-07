@@ -1,4 +1,6 @@
 public class methodsinJava {
+
+    //method  are just blocks of code that are executed whenever it is called upon
     public static void main(String[] args)
     {
         String name = "Bro";
