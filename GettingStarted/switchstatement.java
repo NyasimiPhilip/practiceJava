@@ -34,7 +34,6 @@ public class switchstatement {
                 System.out.println("Invalid day entered.");
                 break;
         }
-
         scanner.close();
     }
 }
