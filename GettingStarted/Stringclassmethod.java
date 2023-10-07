@@ -10,7 +10,5 @@ public class Stringclassmethod {
         System.out.println(character);
         int result2 = name.indexOf("ro");
         System.out.println(result2);
-        
-
     }
 }
