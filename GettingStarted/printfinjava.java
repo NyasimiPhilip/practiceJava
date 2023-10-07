@@ -2,7 +2,7 @@ public class printfinjava {
     public static void main(String[] args) {
         // Declare and initialize variables
         boolean myBoolean = true;
-        char myChar = '@';
+        char myChar = '^';
         String myString = "Bro";
         int myInt = 50;
         double myDouble = 1000;
