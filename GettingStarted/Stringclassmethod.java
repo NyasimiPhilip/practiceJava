@@ -8,8 +8,9 @@ public class Stringclassmethod {
         System.out.println(result1);
         char character = name.charAt(1);
         System.out.println(character);
-        int result2 = name.indexOf("rl");
+        int result2 = name.indexOf("ro");
         System.out.println(result2);
+        
 
     }
 
