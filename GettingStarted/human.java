@@ -10,10 +10,13 @@ public class human {
        this.weight = weight;        
 
     }
-
     void eat()
     {
-        System.out.println(this.name + "is eating");
+        System.out.println(this.name + " is eating");
 
+    }
+    void drink()
+    {
+        System.out.println(this.name + " is drinking");
     }
 }
