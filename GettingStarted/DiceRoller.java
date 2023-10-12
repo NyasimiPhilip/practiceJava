@@ -1,14 +1,17 @@
 import java.util.Random;
 
 public class DiceRoller {
+    private Random random;
+
     public DiceRoller() {
-        Random random = new Random();
-        var number = 0;
-        roll(random, number);
+        random = new Random();
     }
 
-    public void roll(Random random, int number) {
-        number = random.nextInt(6) + 1;
-        System.out.println(number);
+    /**
+     * @return integer result signifying the roll outcome;
+     */
+    public int roll() {
+        int number = random.nextInt(6) + 1;
+        return number;
     }
 }

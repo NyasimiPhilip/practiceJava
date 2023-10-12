@@ -3,5 +3,7 @@ public class VariableScope {
     {
         // Create an instance of the DiceRoller class
         DiceRoller diceRoller = new DiceRoller();
+        int result = diceRoller.roll();
+        System.out.println(result);
     }
 }
