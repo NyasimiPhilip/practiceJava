@@ -7,6 +7,10 @@ public class Hero extends Person
         this.power = power;
 
     }
+    public String toString()
+  {
+    return  super.toString()+ this.power + "\n";
+  }
 
     
 }

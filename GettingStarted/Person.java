@@ -7,5 +7,9 @@ public class Person {
     this.age = age;
 
   }
+  public String toString()
+  {
+    return this.name + "\n" + this.age + "\n";
+  }
 
 }

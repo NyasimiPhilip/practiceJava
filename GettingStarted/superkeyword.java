@@ -5,6 +5,6 @@ public class superkeyword {
          * very similar to the this keyword
          */
         Hero hero1 = new Hero("Batman", 42, "$$$");
-        System.out.println(hero1.power);
+        System.out.println(hero1.toString());
     }
 }
