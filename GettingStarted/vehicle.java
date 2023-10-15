@@ -1,4 +1,4 @@
-public class vehicle  extends moti{
+public  class vehicle  extends moti{
     String name;
     vehicle (String name)
     {
