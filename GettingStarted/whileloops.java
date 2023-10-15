@@ -12,6 +12,10 @@ public class whileloops {
             name = scanner.nextLine();
         }
         System.out.println("Hello "+ name);
-        scanner.close();        
+        scanner.close(); 
+        
+        vehicle vehicl = new vehicle("tinga");
+
+        vehicl.go();
     }        
 }
