@@ -11,6 +11,5 @@ public class Hero extends Person
   {
     return  super.toString()+ this.power + "\n";
   }
-
     
 }
