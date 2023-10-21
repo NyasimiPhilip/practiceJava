@@ -1,14 +1,16 @@
 public class polymorphism {
     public static void main(String[] args) {
+        Building[] buildings = new Building[2]; // Create an array of Building
+
         Building building1 = new House();
         Building building2 = new OfficeBuilding();
 
-        building1.build();
-        building2.build();
 
-        // The following lines will result in compilation errors since
-        // the reference type is Building, and the methods addRoof() and addCubicles() are not visible.
-        // building1.addRoof();
-        // building2.addCubicles();
+        buildings[0] = building1; // Populate the array with building1
+        buildings[1] = building2; // Populate the array with building2
+
+        for (Building xyz : buildings) {
+            xyz.build(); // Call the build() method for each building in the array
+        }
     }
 }
