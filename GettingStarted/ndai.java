@@ -8,6 +8,10 @@ public class ndai {
         this.setModel(model);
         this.setYear(year);
     }
+    ndai(ndai x)
+    {
+        this.copy(x);
+    }
 
     // Getter methods
     public String getMake() {
@@ -33,5 +37,11 @@ public class ndai {
 
     public void setYear(int year) {
         this.year = year;
+    }
+    public void copy(ndai x)
+    {
+        this.setMake(x.getMake());
+        this.setModel(x.getModel());
+        this.setYear(x.getYear());
     }
 }
