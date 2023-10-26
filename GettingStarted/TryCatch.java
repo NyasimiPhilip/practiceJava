@@ -1,21 +1,31 @@
-import java.util.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class TryCatch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a whole number to divide(dividend)");
-        int x = scanner.nextInt();
-
-        System.out.println("Enter the divisor");
-        int y = scanner.nextInt();
 
         try {
-            int result = divideNumbers(x, y);
-            System.out.println("Result of division: " + result);
+            int dividend = readInteger(scanner, "Enter dividend: ");
+            int divisor = readInteger(scanner, "Enter divisor: ");
+
+            int result = divideNumbers(dividend, divisor);
+            System.out.println("Result: " + result);
+        } catch (InputMismatchException e) {
+            System.err.println("Input mismatch. Please enter valid integers.");
         } catch (ArithmeticException e) {
-            System.out.println("Error: Division by zero is not allowed.");
+            System.err.println("ArithmeticException: " + e.getMessage());
         } finally {
-            scanner.close(); // Close the Scanner
+            scanner.close(); // Close the scanner to release resources
+        }
+    }
+
+    public static int readInteger(Scanner scanner, String prompt) {
+        System.out.print(prompt);
+        try {
+            return scanner.nextInt();
+        } catch (InputMismatchException e) {
+            throw new InputMismatchException("Input mismatch. Please enter a valid integer.");
         }
     }
 
