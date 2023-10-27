@@ -10,6 +10,7 @@ public class constructors {
 
         human1.drink();
         human2.eat();
+        /
        
     }
 }
