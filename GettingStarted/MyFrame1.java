@@ -23,7 +23,7 @@ public class MyFrame1 extends JFrame implements ActionListener{
 		textField = new JTextField();
 		textField.setPreferredSize(new Dimension(250,40));
 		textField.setFont(new Font("Consolas",Font.PLAIN,35));
-		textField.setForeground(new Color(0x2002300));
+		textField.setForeground(new Color(0xFF0000));
 		textField.setBackground(Color.black);
 		textField.setCaretColor(Color.white);
 		textField.setText("name");
@@ -39,7 +39,7 @@ public class MyFrame1 extends JFrame implements ActionListener{
 		if(e.getSource()==button) {
 			System.out.println("Welcome "+ textField.getText());
 			button.setEnabled(false);
-			//textField.setEditable(false);
+			textField.setEditable(false);
 		}
 		
 	}
