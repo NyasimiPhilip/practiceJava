@@ -19,7 +19,7 @@ public class MyFrame7 extends JFrame implements ActionListener {
 		// Set the default close operation for the frame.
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Set the initial size of the frame.
-		this.setSize(100, 100);
+		this.setSize(400, 400);
 		// Set the layout manager for the frame to FlowLayout.
 		this.setLayout(new FlowLayout());
 
