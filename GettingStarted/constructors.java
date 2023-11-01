@@ -9,8 +9,6 @@ public class constructors {
         System.out.println(human2.name);
 
         human1.drink();
-        human2.eat();
-        /
-       
+        human2.eat();              
     }
 }
