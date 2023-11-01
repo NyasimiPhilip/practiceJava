@@ -60,4 +60,16 @@ public class MyFrame9 extends JFrame implements ActionListener {
             // Set the background color of the label to the selected color (commented out)
         }
     }
-}
+}/*
+public void actionPerformed(ActionEvent e) {: This is an implementation of the actionPerformed method, which is required when a class implements the ActionListener interface. It specifies what should happen when an action event occurs.
+
+if (e.getSource() == button) {: This line checks if the source of the action event (e) is the same as the button component. In this context, it means that the action event is triggered by the button with the label "Pick a color." If this condition is true, the code within the block is executed.
+
+JColorChooser colorChooser = new JColorChooser();: This line creates an instance of the JColorChooser class, which is a GUI component that allows users to select a color from a color palette.
+
+Color color = JColorChooser.showDialog(null, "Pick a color...I guess", Color.black);: This line opens the color selection dialog by calling the showDialog method of the JColorChooser class. It displays a color picker dialog to the user, and the user can choose a color. The selected color is then stored in the color variable. The showDialog method takes the following arguments:
+
+null: The first argument is the parent component. In this case, it's set to null because the color picker dialog is not associated with any specific parent window.
+"Pick a color...I guess": This is the title of the color picker dialog.
+Color.black: This is the default color displayed in the color picker dialog. If the user cancels the color selection, this default color is used.
+label.setForeground(color);: This line sets the text color (foreground color) of the label component to the color selected by the user in the color picker dialog. This means that the text displayed by the label will be rendered in the selected color. */
