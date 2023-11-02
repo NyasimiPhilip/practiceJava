@@ -18,7 +18,7 @@ public class MyFrame12 {
         label = new JLabel(); // Create a JLabel to display
         label.setBackground(Color.red);
         label.setBounds(100, 100, 100, 100); // Set the position and size of the label
-        label.setOpaque(false); // Make the label opaque
+        label.setOpaque(true); // Make the label opaque
 
         // Create key bindings
         InputMap inputMap = label.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
