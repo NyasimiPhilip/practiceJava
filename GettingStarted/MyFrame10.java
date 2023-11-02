@@ -87,8 +87,5 @@ public class MyFrame10 extends JFrame implements KeyListener {
         ySpeed = 0;
     }
 
-    public static void main(String[] args) {
-        // Create an instance of MyFrame10
-        MyFrame10 frame = new MyFrame10();
-    }
+
 }
