@@ -4,7 +4,7 @@ public class javamethodchaining {
         String name = "Bro";
         name = name.concat("philip   ").toUpperCase();
         System.out.println(name);
-
+        name = name.trim(); // Assign the trimmed string back to 'name'
        
         boolean hasWhiteSpace = containsWhiteSpace(name);
 
