@@ -9,7 +9,7 @@ public class javahashmap {
 		
 		HashMap<String,String> countries = new HashMap<String,String>();
 		
-		//add a key and value
+		//add a key and value mapping
 		countries.put("USA","Washington DC");
 		countries.put("India","New Delhi");
 		countries.put("Russia","Moscow");
